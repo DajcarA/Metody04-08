@@ -69,6 +69,7 @@
             this.button3CifLichSoucet.TabIndex = 2;
             this.button3CifLichSoucet.Text = "CifLichSoucet";
             this.button3CifLichSoucet.UseVisualStyleBackColor = true;
+            this.button3CifLichSoucet.Click += new System.EventHandler(this.button3CifLichSoucet_Click);
             // 
             // button4JePrvocislo
             // 

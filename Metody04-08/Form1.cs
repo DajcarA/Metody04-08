@@ -31,5 +31,12 @@ namespace Metody04_08
             int vysledek = CelaCisla.Faktorial(a);
             MessageBox.Show(vysledek.ToString());
         }
+
+        private void button3CifLichSoucet_Click(object sender, EventArgs e)
+        {
+            int cislo = int.Parse(textBox4.Text);
+            int vysledek = CelaCisla.CifLichSoucet(cislo);
+            MessageBox.Show(vysledek.ToString());
+        }
     }
 }

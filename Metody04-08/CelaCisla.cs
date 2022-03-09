@@ -38,5 +38,21 @@ namespace Metody04_08
 
             return fak;
         }
+
+        public static int CifLichSoucet(int cislo)
+        {
+            int lichSou = 0;
+            int cifra;
+            while(cislo > 0)
+            {
+                cifra = cislo % 10;
+                if(cifra % 2 != 0)
+                {
+                    lichSou += cifra;
+                }
+                cislo /= 10;
+            }
+            return lichSou;
+        }
     }
 }
