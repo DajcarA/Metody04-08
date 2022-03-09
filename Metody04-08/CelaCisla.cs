@@ -8,6 +8,23 @@ namespace Metody04_08
 {
     class CelaCisla
     {
-        public int Mocnina(int )
+        public static int Mocnina(int zaklad, int exponent)
+        {
+            bool zapExpo = exponent < 0;
+            exponent = Math.Abs(exponent);
+
+            int vysledek = 1;
+            for(int i = 0;i < exponent; ++i)
+            {
+                  vysledek *= zaklad;
+            } 
+
+            if (zapExpo)
+            {
+                vysledek = 1 / vysledek;
+                return vysledek;
+            }
+            else return vysledek;
+        }
     }
 }

@@ -49,6 +49,7 @@
             this.button1Mocnina.TabIndex = 0;
             this.button1Mocnina.Text = "Mocnina";
             this.button1Mocnina.UseVisualStyleBackColor = true;
+            this.button1Mocnina.Click += new System.EventHandler(this.button1Mocnina_Click);
             // 
             // button2Faktorial
             // 

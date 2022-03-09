@@ -16,5 +16,13 @@ namespace Metody04_08
         {
             InitializeComponent();
         }
+
+        private void button1Mocnina_Click(object sender, EventArgs e)
+        {
+            int z = int.Parse(textBox1.Text);
+            int exp = int.Parse(textBox2.Text);
+            int vysledek = CelaCisla.Mocnina(z, exp);
+            MessageBox.Show(vysledek.ToString());
+        }
     }
 }
