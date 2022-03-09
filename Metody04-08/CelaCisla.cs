@@ -26,5 +26,17 @@ namespace Metody04_08
             }
             else return vysledek;
         }
+
+        public static int Faktorial(int a)
+        {
+            int fak = 1;
+            while (a> 0)
+            {
+                fak *= a;
+                --a;
+            }
+
+            return fak;
+        }
     }
 }

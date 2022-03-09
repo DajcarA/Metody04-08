@@ -59,6 +59,7 @@
             this.button2Faktorial.TabIndex = 1;
             this.button2Faktorial.Text = "Faktorial";
             this.button2Faktorial.UseVisualStyleBackColor = true;
+            this.button2Faktorial.Click += new System.EventHandler(this.button2Faktorial_Click);
             // 
             // button3CifLichSoucet
             // 

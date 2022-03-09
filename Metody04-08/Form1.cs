@@ -24,5 +24,12 @@ namespace Metody04_08
             int vysledek = CelaCisla.Mocnina(z, exp);
             MessageBox.Show(vysledek.ToString());
         }
+
+        private void button2Faktorial_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox3.Text);
+            int vysledek = CelaCisla.Faktorial(a);
+            MessageBox.Show(vysledek.ToString());
+        }
     }
 }
