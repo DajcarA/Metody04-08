@@ -39,6 +39,9 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.button1NSD = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1Mocnina
@@ -147,11 +150,38 @@
             this.textBox6.Size = new System.Drawing.Size(132, 22);
             this.textBox6.TabIndex = 10;
             // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(264, 193);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 22);
+            this.textBox7.TabIndex = 11;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(264, 229);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(100, 22);
+            this.textBox8.TabIndex = 12;
+            // 
+            // button1NSD
+            // 
+            this.button1NSD.Location = new System.Drawing.Point(231, 281);
+            this.button1NSD.Name = "button1NSD";
+            this.button1NSD.Size = new System.Drawing.Size(173, 28);
+            this.button1NSD.TabIndex = 13;
+            this.button1NSD.Text = "Největší společný dělitel";
+            this.button1NSD.UseVisualStyleBackColor = true;
+            this.button1NSD.Click += new System.EventHandler(this.button1NSD_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.button1NSD);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -184,6 +214,9 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Button button1NSD;
     }
 }
 

@@ -76,5 +76,33 @@ namespace Metody04_08
 
             return pocetSudDel;
         }
+
+        public static int nsd(int cislo1, int cislo2)
+        {
+            int nejvetsiDel = 1;
+            int mensiCislo = cislo1;
+
+            if (cislo1 != cislo2)
+            {
+                if (cislo1 > cislo2)
+                {
+                    mensiCislo = cislo2;
+                }
+
+                for (int i = 2; i <= mensiCislo; i++)
+                {
+                    if (cislo1 % i == 0 && cislo2 % i == 0)
+                    {
+                        nejvetsiDel = i;
+                    }
+                }
+            }
+            else
+            {
+                nejvetsiDel = cislo1;
+            }
+
+            return nejvetsiDel;
+        }
     }
 }
