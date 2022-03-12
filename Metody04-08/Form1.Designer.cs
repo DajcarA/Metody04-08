@@ -43,9 +43,10 @@
             // 
             // button1Mocnina
             // 
-            this.button1Mocnina.Location = new System.Drawing.Point(12, 76);
+            this.button1Mocnina.Location = new System.Drawing.Point(16, 94);
+            this.button1Mocnina.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1Mocnina.Name = "button1Mocnina";
-            this.button1Mocnina.Size = new System.Drawing.Size(75, 23);
+            this.button1Mocnina.Size = new System.Drawing.Size(100, 28);
             this.button1Mocnina.TabIndex = 0;
             this.button1Mocnina.Text = "Mocnina";
             this.button1Mocnina.UseVisualStyleBackColor = true;
@@ -53,9 +54,10 @@
             // 
             // button2Faktorial
             // 
-            this.button2Faktorial.Location = new System.Drawing.Point(198, 76);
+            this.button2Faktorial.Location = new System.Drawing.Point(264, 94);
+            this.button2Faktorial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2Faktorial.Name = "button2Faktorial";
-            this.button2Faktorial.Size = new System.Drawing.Size(75, 23);
+            this.button2Faktorial.Size = new System.Drawing.Size(100, 28);
             this.button2Faktorial.TabIndex = 1;
             this.button2Faktorial.Text = "Faktorial";
             this.button2Faktorial.UseVisualStyleBackColor = true;
@@ -63,9 +65,10 @@
             // 
             // button3CifLichSoucet
             // 
-            this.button3CifLichSoucet.Location = new System.Drawing.Point(394, 76);
+            this.button3CifLichSoucet.Location = new System.Drawing.Point(525, 94);
+            this.button3CifLichSoucet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3CifLichSoucet.Name = "button3CifLichSoucet";
-            this.button3CifLichSoucet.Size = new System.Drawing.Size(84, 23);
+            this.button3CifLichSoucet.Size = new System.Drawing.Size(112, 28);
             this.button3CifLichSoucet.TabIndex = 2;
             this.button3CifLichSoucet.Text = "CifLichSoucet";
             this.button3CifLichSoucet.UseVisualStyleBackColor = true;
@@ -73,72 +76,81 @@
             // 
             // button4JePrvocislo
             // 
-            this.button4JePrvocislo.Location = new System.Drawing.Point(594, 76);
+            this.button4JePrvocislo.Location = new System.Drawing.Point(792, 94);
+            this.button4JePrvocislo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4JePrvocislo.Name = "button4JePrvocislo";
-            this.button4JePrvocislo.Size = new System.Drawing.Size(75, 23);
+            this.button4JePrvocislo.Size = new System.Drawing.Size(100, 28);
             this.button4JePrvocislo.TabIndex = 3;
             this.button4JePrvocislo.Text = "JePrvocislo";
             this.button4JePrvocislo.UseVisualStyleBackColor = true;
+            this.button4JePrvocislo.Click += new System.EventHandler(this.button4JePrvocislo_Click);
             // 
             // button5PocetDeliteluSud
             // 
-            this.button5PocetDeliteluSud.Location = new System.Drawing.Point(12, 228);
+            this.button5PocetDeliteluSud.Location = new System.Drawing.Point(16, 281);
+            this.button5PocetDeliteluSud.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5PocetDeliteluSud.Name = "button5PocetDeliteluSud";
-            this.button5PocetDeliteluSud.Size = new System.Drawing.Size(100, 23);
+            this.button5PocetDeliteluSud.Size = new System.Drawing.Size(133, 28);
             this.button5PocetDeliteluSud.TabIndex = 4;
             this.button5PocetDeliteluSud.Text = "PocetDeliteluSud";
             this.button5PocetDeliteluSud.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Location = new System.Drawing.Point(16, 15);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(75, 20);
+            this.textBox1.Size = new System.Drawing.Size(99, 22);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "Základ";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 38);
+            this.textBox2.Location = new System.Drawing.Point(16, 47);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(75, 20);
+            this.textBox2.Size = new System.Drawing.Size(99, 22);
             this.textBox2.TabIndex = 6;
             this.textBox2.Text = "Exponent";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(198, 21);
+            this.textBox3.Location = new System.Drawing.Point(264, 26);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(95, 20);
+            this.textBox3.Size = new System.Drawing.Size(125, 22);
             this.textBox3.TabIndex = 7;
             this.textBox3.Text = "Parametr faktorialu";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(394, 21);
+            this.textBox4.Location = new System.Drawing.Point(525, 26);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.Size = new System.Drawing.Size(132, 22);
             this.textBox4.TabIndex = 8;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(594, 21);
+            this.textBox5.Location = new System.Drawing.Point(792, 26);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.Size = new System.Drawing.Size(132, 22);
             this.textBox5.TabIndex = 9;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(12, 186);
+            this.textBox6.Location = new System.Drawing.Point(16, 229);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.Size = new System.Drawing.Size(132, 22);
             this.textBox6.TabIndex = 10;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -150,6 +162,7 @@
             this.Controls.Add(this.button3CifLichSoucet);
             this.Controls.Add(this.button2Faktorial);
             this.Controls.Add(this.button1Mocnina);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

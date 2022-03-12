@@ -38,5 +38,13 @@ namespace Metody04_08
             int vysledek = CelaCisla.CifLichSoucet(cislo);
             MessageBox.Show(vysledek.ToString());
         }
+
+        private void button4JePrvocislo_Click(object sender, EventArgs e)
+        {
+            int cislo = int.Parse(textBox5.Text);
+            bool jePrvocislo = CelaCisla.JePrvocislo(cislo);
+            if (jePrvocislo) MessageBox.Show("Číslo " + cislo + " je prvočíslo");
+            else MessageBox.Show("Číslo " + cislo + " není prvočíslo");
+        }
     }
 }

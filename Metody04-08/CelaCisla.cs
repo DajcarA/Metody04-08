@@ -54,5 +54,16 @@ namespace Metody04_08
             }
             return lichSou;
         }
+
+        public static bool JePrvocislo(int cislo)
+        {
+            bool jePrvocislo = true;
+            for (int i = 2; i < cislo && jePrvocislo; i++)
+            {
+                if (cislo % i == 0) jePrvocislo = false;
+            }
+            return jePrvocislo;
+
+        }
     }
 }
