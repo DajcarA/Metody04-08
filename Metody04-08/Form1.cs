@@ -46,5 +46,13 @@ namespace Metody04_08
             if (jePrvocislo) MessageBox.Show("Číslo " + cislo + " je prvočíslo");
             else MessageBox.Show("Číslo " + cislo + " není prvočíslo");
         }
+
+        private void button5PocetDeliteluSud_Click(object sender, EventArgs e)
+        {
+            int cislo = int.Parse(textBox6.Text);
+            int pocetSudDel = CelaCisla.PocetDeliteluSud(cislo);
+
+            MessageBox.Show("Počet sudých dělitelů je " + pocetSudDel);
+        }
     }
 }

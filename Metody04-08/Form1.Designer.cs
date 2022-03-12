@@ -94,6 +94,7 @@
             this.button5PocetDeliteluSud.TabIndex = 4;
             this.button5PocetDeliteluSud.Text = "PocetDeliteluSud";
             this.button5PocetDeliteluSud.UseVisualStyleBackColor = true;
+            this.button5PocetDeliteluSud.Click += new System.EventHandler(this.button5PocetDeliteluSud_Click);
             // 
             // textBox1
             // 
